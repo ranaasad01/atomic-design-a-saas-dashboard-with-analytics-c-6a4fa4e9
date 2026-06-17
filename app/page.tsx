@@ -308,7 +308,7 @@ export default function HomePage() {
             <motion.div variants={fadeInUp}>
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-500/30 text-indigo-300 text-sm font-medium">
                 <Sparkles className="w-3.5 h-3.5" />
-                Now with AI-powered anomaly detection
+                Now with AI-powered anomaly
               </span>
             </motion.div>
 
