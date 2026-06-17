@@ -99,9 +99,9 @@ export default function Footer() {
                       href={link.href}
                       className="text-sm text-slate-400 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 rounded"
                       {...(section.title === "Product" && link.label === "Overview" ? { style: { color: "#190101", fontFamily: "IBM Plex Sans", fontSize: "24px" } } : {})}
-                      {...(section.title === "Product" && link.label === "Pricing" ? { style: { color: "#140000", fontFamily: "Playfair Display", fontSize: "26px" } } : {})}
+                      {...(section.title === "Product" && link.label === "Pricing" ? { style: { color: "#1c0202" } } : {})}
                     >
-                      {section.title === "Product" && link.label === "Pricing" ? "Start Free" : link.label}
+                      {section.title === "Product" && link.label === "Pricing" ? "Start Free Trial" : link.label}
                     </a>
                   </li>
                 ))}
