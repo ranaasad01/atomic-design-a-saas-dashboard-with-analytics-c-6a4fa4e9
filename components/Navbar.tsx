@@ -162,7 +162,7 @@ export default function Navbar() {
                   <a
                     href={navCTA.href}
                     onClick={() => setMobileOpen(false)}
-                    style={{ fontFamily: "Playfair Display", fontSize: "24px", color: "#0a0000" }}
+                    style={{ fontFamily: "JetBrains Mono", fontSize: "25px", color: "#0a0000" }}
                     className="block px-3 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-indigo-500 to-violet-600 rounded-lg text-center shadow"
                   >
                     {navCTA.label}
