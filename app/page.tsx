@@ -335,7 +335,7 @@ export default function HomePage() {
             {/* CTAs */}
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4 mt-2">
               <motion.a
-                style={{ color: "#2f0404" }}
+                style={{ color: "#2f0404", fontFamily: "JetBrains Mono", fontSize: "24px" }}
                 href="#get-started"
                 whileHover={shouldReduce ? {} : { scale: 1.04, boxShadow: "0 8px 32px rgba(99,102,241,0.45)" }}
                 whileTap={{ scale: 0.97 }}
