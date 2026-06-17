@@ -98,6 +98,7 @@ export default function Footer() {
                     <a
                       href={link.href}
                       className="text-sm text-slate-400 hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 rounded"
+                      {...(section.title === "Product" && link.label === "Overview" ? { style: { color: "#190101" } } : {})}
                     >
                       {link.label}
                     </a>
