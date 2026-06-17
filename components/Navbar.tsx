@@ -162,7 +162,7 @@ export default function Navbar() {
                   <a
                     href={navCTA.href}
                     onClick={() => setMobileOpen(false)}
-                    style={{ fontFamily: "IBM Plex Sans", fontSize: "24px" }}
+                    style={{ fontFamily: "IBM Plex Sans", fontSize: "24px", color: "#190101" }}
                     className="block px-3 py-2.5 text-sm font-semibold text-white bg-gradient-to-r from-indigo-500 to-violet-600 rounded-lg text-center shadow"
                   >
                     {navCTA.label}
