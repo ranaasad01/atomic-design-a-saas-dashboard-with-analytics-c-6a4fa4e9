@@ -101,7 +101,7 @@ export default function Footer() {
                       {...(section.title === "Product" && link.label === "Overview" ? { style: { color: "#190101", fontFamily: "IBM Plex Sans", fontSize: "24px" } } : {})}
                       {...(section.title === "Product" && link.label === "Pricing" ? { style: { color: "#140000", fontFamily: "Playfair Display", fontSize: "26px" } } : {})}
                     >
-                      {link.label}
+                      {section.title === "Product" && link.label === "Pricing" ? "Start Free" : link.label}
                     </a>
                   </li>
                 ))}
