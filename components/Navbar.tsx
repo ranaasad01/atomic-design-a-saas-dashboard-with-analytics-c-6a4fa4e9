@@ -101,7 +101,7 @@ export default function Navbar() {
               href="#get-started"
               whileHover={{ scale: 1.04, boxShadow: "0 4px 20px rgba(99,102,241,0.35)" }}
               whileTap={{ scale: 0.97 }}
-              style={{ color: "#190101" }}
+              style={{ color: "#190101", fontFamily: "Playfair Display", fontSize: "26px" }}
               className="px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-indigo-500 to-violet-600 rounded-lg shadow-md hover:from-indigo-600 hover:to-violet-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2"
             >
               {navCTA.label}
