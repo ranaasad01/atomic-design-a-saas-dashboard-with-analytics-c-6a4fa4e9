@@ -340,7 +340,7 @@ export default function HomePage() {
                 whileTap={{ scale: 0.97 }}
                 className="px-8 py-3.5 text-base font-semibold text-white bg-gradient-to-r from-indigo-500 to-violet-600 rounded-xl shadow-lg hover:from-indigo-600 hover:to-violet-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
               >
-                Start Free Trial — No card needed
+                Start Free Trial 
               </motion.a>
               <motion.a
                 href="#charts"
